@@ -1,0 +1,15 @@
+AIzaSyDmg3omGcBlIv_mWnwDElXEJXnO_D6rCP8
+
+
+
+curl \
+  -H "Content-Type: application/json" \
+  -d "{\"contents\":[{\"parts\":[{\"text\":\"Explain how AI works\"}]}]}" \
+  -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=YOUR_API_KEY"
+
+
+  Mongo DB
+  denismenegon
+  T2t2VJfc6GqajYKh
+
+ mongodb+srv://denismenegon:<db_password>@cluster0.yumhi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
